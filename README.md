@@ -28,7 +28,7 @@ Add a border around the given imahe
 
 All functions contain a docstring and errorhandling for the arguments.\
 The repository contains a .yaml file which specifies the python environment used while creating these functions.\
-**IMPORTANT!** All functions except the support functions intentionally only output images using matplotlib and they do not return the numpy array. \
+**IMPORTANT!** All functions except the support functions intentionally only output images using matplotlib, they do not return the numpy array.
 
 #### TO TEST THE FUNCTIONS
 Please open **exercise.py** in visual studio code and find an example of all included functions commented out. \
