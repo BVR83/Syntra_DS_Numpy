@@ -6,15 +6,15 @@ This repository is created as part of the Syntra Data science course 2024 given 
 ## Created functions
 
 ### `add_hor`
-support function to tile an image horizontally for a specific amount
+Support function to tile an image horizontally for a specific amount
 ### `add_vert`
-support function to tile an image vertically for a specific amount
+Support function to tile an image vertically for a specific amount
 ### `tile_img`
-tile a given image based on a vertical and horizontal value
+Tile a given image based on a vertical and horizontal value
 ### `tile_img_matrix`
-tile a given image based on the shape of a matrix
+Tile a given image based on the shape of a matrix
 ### `tile_array_directions`
-tile a given image vertically and define the mirroring per row
+Tile a given image vertically and define the mirroring per row
 ### `tilemirror_matrix`
 Tile and mirror a given image based on a np array
 ### `enlargeImgBorder`
