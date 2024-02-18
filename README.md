@@ -18,7 +18,7 @@ tile a given image vertically and define the mirroring per row
 ### `tilemirror_matrix`
 Tile and mirror a given image based on a np array
 ### `enlargeImgBorder`
-Add the image as padding around the given image
+Rescale the main image and add the image as padding around the given image
 ### `word`
 Generate an image representing the given text using letters from an alphabet image.
 ### `add_border`
