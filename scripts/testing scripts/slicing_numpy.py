@@ -23,19 +23,32 @@ arr = np.arange(12).reshape(2, 2, 3)
 print("Original array:")
 print(arr)
 concatenated_array = np.concatenate((arr, arr), axis=1)
+print("concatenated_array:")
 print(concatenated_array)
 
 transform_array = np.array([[1,1,2,1],[1,2,1,1]])
+
+
+
 for i in range(transform_array.shape[0]):
     
     for j in range(transform_array.shape[1]):
         
-        print(transform_array[i,j])
+        # print(transform_array[i,j])
         if transform_array[i,j] == 2:
-            print("i",i)
-            print("j",j)
-            # sliced_array = arr[i,i,j] <----HIER KLOPT het niet
-            print(sliced_array)
+            # print("i",i)
+            # print("j",j)
+            
+            sliced_part = concatenated_array[i,j]
+            # print(sliced_part)
+            Hflipped = np.flip(sliced_part, axis=0)
+            # print("flipped",Hflipped)
+            # replace part
+            concatenated_array[i,j] = Hflipped
+
+print("flipped part concatenated_array:")
+print(concatenated_array)
+
 
 # # Slice a portion of the array (for example, along the first dimension)
 # sliced_part = arr[0, :, :]
