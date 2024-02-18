@@ -24,7 +24,7 @@ Generate an image representing the given text using letters from an alphabet ima
 ### `add_border`
 Add a border around the given imahe
 
-#### NOTES
+## NOTES
 
 Please open exercise.py in visual studio code and find an example of all included functions commented out. 
 Please uncomment any function to test and explore the function. 
