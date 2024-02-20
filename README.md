@@ -38,6 +38,6 @@ You can find all functions in functions.py.\
 **Have fun exploring my python image manipulation functions!!!**
 
 ## Github link
-https://github.com/BVR83/Syntra_DS_Numpy
+https://github.com/BVR83/Syntra_DS_Numpy.git
 
 
